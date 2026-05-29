@@ -14,7 +14,7 @@ Supports network disconnect and DNS fault simulation. No root required, no proxy
 ![Kotlin](https://img.shields.io/badge/Kotlin-2.0-7F52FF?logo=kotlin)
 ![Android](https://img.shields.io/badge/Android-minSdk%2023-3DDC84?logo=android)
 ![Compose](https://img.shields.io/badge/Jetpack_Compose-BOM%202024.09-4285F4?logo=jetpackcompose)
-![License](https://img.shields.io/badge/License-MIT-blue)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue)
 
 </p>
 
