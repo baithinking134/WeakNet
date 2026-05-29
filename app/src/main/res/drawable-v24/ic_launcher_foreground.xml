@@ -1,0 +1,73 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- WiFi center dot (bright cyan) -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M49,76A5,5 0 1,0 59,76A5,5 0 1,0 49,76Z" />
+
+    <!-- Arc 1: bottom wave (bright cyan, strong signal) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#4FC3F7"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M41,66A17,17 0 0,1 67,66" />
+
+    <!-- Arc 2: middle wave (lighter blue, weakening) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#81D4FA"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:pathData="M32,58A29,29 0 0,1 76,58" />
+
+    <!-- Arc 3 left: top wave broken (amber, weak) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF7043"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M24,50A40,40 0 0,1 47,38" />
+
+    <!-- Arc 3 right: top wave broken (amber, weak) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF7043"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M61,38A40,40 0 0,1 84,50" />
+
+    <!-- Arc 4 left fragment (red, very weak) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF5252"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M18,42A48,48 0 0,1 40,30" />
+
+    <!-- Arc 4 right fragment (red, very weak) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF5252"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M68,30A48,48 0 0,1 90,42" />
+
+    <!-- Warning triangle (between arc 3 and arc 4) -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M54,20 L46,34 L62,34 Z" />
+    <!-- Exclamation bar (background cutout) -->
+    <path
+        android:fillColor="#0D1B2A"
+        android:pathData="M52.5,23.5 L55.5,23.5 L54.5,30 L53.5,30 Z" />
+    <!-- Exclamation dot (background cutout) -->
+    <path
+        android:fillColor="#0D1B2A"
+        android:pathData="M54,32m-1.2,0a1.2,1.2 0 1,0 2.4,0a1.2,1.2 0 1,0 -2.4,0Z" />
+
+</vector>
